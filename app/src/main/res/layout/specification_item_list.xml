@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              xmlns:zhy="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/specification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="规格"
+        android:layout_marginLeft="5dp"/>
+    <com.zhy.view.flowlayout.TagFlowLayout
+        android:id="@+id/flower"
+        zhy:max_select="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.zhy.view.flowlayout.TagFlowLayout>
+
+</LinearLayout>

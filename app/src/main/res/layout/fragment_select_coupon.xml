@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+    >
+    <com.example.bbacr.ddw.widget.AppTitleBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:bar_title="优惠券"
+        app:action_text="我的优惠券"
+        app:back_img="@mipmap/fragment_back_arrow">
+    </com.example.bbacr.ddw.widget.AppTitleBar>
+    <com.github.jdsjlzx.recyclerview.LRecyclerView
+        android:id="@+id/lRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.github.jdsjlzx.recyclerview.LRecyclerView>
+</LinearLayout>

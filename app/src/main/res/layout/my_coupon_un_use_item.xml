@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+<RelativeLayout
+    android:id="@+id/relative"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<RelativeLayout
+    android:id="@+id/Relative"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_margin="10dp"
+    android:background="@mipmap/coupon">
+    <TextView
+        android:id="@+id/money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:layout_above="@+id/view"
+        android:textColor="@color/white"
+        android:text="30"
+        android:textStyle="bold"
+       android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"/>
+    <TextView
+        android:id="@+id/all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="￥"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginRight="2dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/money"
+        />
+</RelativeLayout>
+
+    <TextView
+        android:id="@+id/mold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/Relative"
+        android:text="平拍"
+        android:textColor="@color/white"
+        android:background="@drawable/def_red"
+        android:padding="5dp"
+        android:layout_margin="15dp"/>
+    <TextView
+        android:id="@+id/shop_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/mold"
+        android:text="苹果店"
+        android:textColor="@color/line_color"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:id="@+id/use"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:background="@mipmap/no_use"
+        />
+    <TextView
+        android:id="@+id/time1"
+        android:layout_below="@+id/mold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="时间"
+        android:layout_toRightOf="@+id/Relative"
+
+        />
+</RelativeLayout>
+
+
+</FrameLayout>

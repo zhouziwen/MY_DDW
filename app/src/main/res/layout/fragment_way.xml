@@ -1,0 +1,158 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              tools:context="com.example.bbacr.ddw.car.WayFragment">
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <com.example.bbacr.ddw.widget.AppTitleBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:back_img="@mipmap/fragment_back_arrow"
+        app:bar_title="配送及支付方式">
+    </com.example.bbacr.ddw.widget.AppTitleBar>
+<TextView
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="配送方式"
+    android:textStyle="bold"
+    android:textSize="18sp"
+    android:textColor="@color/line_color"
+    android:layout_margin="10dp"/>
+<RadioGroup
+    android:id="@+id/distribution_way"
+    android:layout_marginLeft="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RadioButton
+        android:id="@+id/distribution_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:textSize="18sp"
+        android:button="@drawable/selector_check_bg"
+        android:text="  送货上门"/>
+    <RadioButton
+    android:id="@+id/distribution_2"
+    android:layout_marginTop="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="18sp"
+    android:button="@drawable/selector_check_bg"
+    android:text="  到店自取">
+</RadioButton>
+</RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 支付方式"
+        android:textColor="@color/line_color"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_margin="10dp"/>
+    <RadioGroup
+        android:id="@+id/pay_way"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/pay_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:button="@drawable/selector_check_bg"
+            android:checked="true"
+            android:text="  网上支付"/>
+        <RadioButton
+            android:visibility="gone"
+            android:id="@+id/pay_2"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:button="@drawable/selector_check_bg"
+            android:text="  到店支付">
+        </RadioButton>
+    </RadioGroup>
+    </LinearLayout>
+   <TextView
+       android:id="@+id/sure"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="确定"
+       android:gravity="center"
+       android:textColor="@color/white"
+       android:padding="15dp"
+       android:background="@drawable/def_red"
+       android:layout_alignParentBottom="true"
+       android:layout_centerHorizontal="true"
+       />
+    </RelativeLayout>
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/Relative_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+        <TextView
+            android:id="@+id/title_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@mipmap/fragment_back_arrow"
+            android:layout_centerVertical="true"
+            android:textColor="@color/font_black"/>
+        <!-- 这里可以设置back图案 ：
+            android:background="@drawable/ease_common_tab_bg"
+            android:drawableLeft="@drawable/fragment_back_arrow-->
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/line_color"
+            android:text="店铺列表"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:gravity="center"
+            android:textColor="@color/font_black_light"
+            android:layout_centerVertical="true"
+            android:textSize="14sp"/>
+
+        <View
+            android:id="@+id/view_1"
+            style="@style/dividerTitleBar"
+            android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>
+    <com.github.jdsjlzx.recyclerview.LRecyclerView
+        android:layout_below="@+id/title_bar"
+        android:id="@+id/lRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.github.jdsjlzx.recyclerview.LRecyclerView>
+    </RelativeLayout>
+</RelativeLayout>

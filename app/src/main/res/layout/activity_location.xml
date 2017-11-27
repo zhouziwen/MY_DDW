@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.example.bbacr.ddw.LocationActivity">
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/back_img"
+           android:src="@mipmap/fragment_back_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:id="@+id/search"
+            android:layout_weight="9"
+            android:layout_width="0dp"
+            android:hint="输入你的位置"
+            android:drawableLeft="@mipmap/ic_action_search"
+            android:textColorHint="@color/color4f000"
+            android:textSize="12sp"
+            android:drawablePadding="5dp"
+            android:layout_gravity="center"
+            android:background="@drawable/def_white_class"
+            android:layout_height="25dp"/>
+    </LinearLayout>
+    <ListView
+        android:visibility="gone"
+        android:id="@+id/list_view2"
+        android:layout_below="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+<com.amap.api.maps.MapView
+    android:id="@+id/map"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:layout_below="@+id/layout">
+</com.amap.api.maps.MapView>
+    <TextView
+        android:id="@+id/location"
+        android:layout_below="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/weizhi"
+        android:drawablePadding="10dp"
+        android:textColor="@color/line_color"
+        android:padding="10dp"/>
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_below="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+</RelativeLayout>

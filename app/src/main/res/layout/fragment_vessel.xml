@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.example.bbacr.ddw.home.shopdetail.VesselFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <com.example.bbacr.ddw.customview.DragLayout
+        android:id="@+id/draglayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <FrameLayout
+            android:id="@+id/activity_product_details_first"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <FrameLayout
+            android:id="@+id/activity_product_details_second"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </com.example.bbacr.ddw.customview.DragLayout>
+    </LinearLayout>
+</RelativeLayout>

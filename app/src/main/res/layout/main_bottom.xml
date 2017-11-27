@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:id="@+id/bottom_home"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/home_page"
+            android:textColor="@drawable/tab_menu_text"
+            android:gravity="center"
+            android:drawablePadding="5dp"
+            android:paddingTop="5dp"
+            android:drawableTop="@drawable/tab_menu_home"
+            />
+
+        <TextView
+            android:id="@+id/bottom_classifcation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/class_fication"
+            android:textColor="@drawable/tab_menu_text"
+            android:gravity="center"
+            android:drawablePadding="5dp"
+            android:paddingTop="5dp"
+            android:drawableTop="@drawable/tab_menu_classifcation"
+            />
+
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/bottom_super"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="待定"
+            android:textColor="@drawable/tab_menu_text"
+            android:gravity="center"
+            android:drawablePadding="5dp"
+            android:paddingTop="5dp"
+            android:drawableTop="@drawable/tab_menu_fx"
+            />
+
+        <TextView
+            android:id="@+id/bottom_shopping_cart"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/shopping_cart"
+            android:textColor="@drawable/tab_menu_text"
+            android:gravity="center"
+            android:drawablePadding="5dp"
+            android:paddingTop="5dp"
+            android:drawableTop="@drawable/tab_menu_shopping_cart"
+            />
+        <TextView
+            android:id="@+id/bottom_my"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/my"
+            android:textColor="@drawable/tab_menu_text"
+            android:gravity="center"
+            android:drawablePadding="5dp"
+            android:paddingTop="5dp"
+            android:drawableTop="@drawable/tab_menu_my"
+            />
+    </LinearLayout>
+
+</LinearLayout>

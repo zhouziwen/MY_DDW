@@ -1,0 +1,1 @@
+include ':app', ':okhttputils', ':share', ':meituanturnpagelibrary', ':charts', ':takephoto_library'

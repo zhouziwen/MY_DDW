@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FAFAFA"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_dismiss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:src="@mipmap/fragment_back_arrow"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:text="请输入支付密码"
+            android:textColor="@color/line_color"
+            android:textSize="18sp"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/a_1dp"
+        android:background="#DADADA"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:background="@drawable/shape_pay_pwd"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/tv_pwd_one"
+            android:background="@null"
+            android:editable="false"
+            android:focusable="false"
+            android:inputType="numberPassword"
+            style="@style/tv_pwd_one"/>
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="#DADADA"/>
+
+        <EditText
+            android:id="@+id/tv_pwd_two"
+            android:background="@null"
+            android:editable="false"
+            android:focusable="false"
+            android:inputType="numberPassword"
+            style="@style/tv_pwd_one"/>
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="#DADADA"/>
+
+        <EditText
+            android:id="@+id/tv_pwd_three"
+            android:background="@null"
+            android:editable="false"
+            android:focusable="false"
+            android:inputType="numberPassword"
+            style="@style/tv_pwd_one"/>
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="#DADADA"/>
+
+        <EditText
+            android:id="@+id/tv_pwd_four"
+            android:background="@null"
+            android:editable="false"
+            android:focusable="false"
+            android:inputType="numberPassword"
+            style="@style/tv_pwd_one"/>
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="#DADADA"/>
+
+        <EditText
+            android:id="@+id/tv_pwd_five"
+            android:background="@null"
+            android:editable="false"
+            android:focusable="false"
+            android:inputType="numberPassword"
+            style="@style/tv_pwd_one"/>
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="#DADADA"/>
+
+        <EditText
+            android:id="@+id/tv_pwd_six"
+            android:background="@null"
+            android:editable="false"
+            android:focusable="false"
+            android:inputType="numberPassword"
+            style="@style/tv_pwd_one"/>
+    </LinearLayout>
+    <View
+        android:background="#DADADA"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/tv_key_one"
+            style="@style/tv_key_one"
+            android:text="1"/>
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="#DADADA"/>
+
+        <Button
+            android:id="@+id/tv_key_two"
+            style="@style/tv_key_one"
+            android:text="2"/>
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="#DADADA"/>
+
+        <Button
+            android:id="@+id/tv_key_three"
+            style="@style/tv_key_one"
+            android:text="3"/>
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="#DADADA"/>
+
+    </LinearLayout>
+
+    <View
+        android:background="#DADADA"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/tv_key_four"
+            style="@style/tv_key_one"
+            android:text="4"/>
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="#DADADA"/>
+
+        <Button
+            android:id="@+id/tv_key_five"
+            style="@style/tv_key_one"
+            android:text="5"/>
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="#DADADA"/>
+
+        <Button
+            android:id="@+id/tv_key_six"
+            style="@style/tv_key_one"
+            android:text="6"/>
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="#DADADA"/>
+
+    </LinearLayout>
+
+    <View
+        android:background="#DADADA"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/tv_key_seven"
+            style="@style/tv_key_one"
+            android:text="7"/>
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="#DADADA"/>
+
+        <Button
+            android:id="@+id/tv_key_eight"
+            style="@style/tv_key_one"
+            android:text="8"/>
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="#DADADA"/>
+
+        <Button
+            android:id="@+id/tv_key_nine"
+            style="@style/tv_key_one"
+            android:text="9"/>
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="#DADADA"/>
+
+    </LinearLayout>
+    <View
+        android:background="#DADADA"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/tv_key_null"
+            style="@style/tv_key_one"
+            android:text="x"
+            android:background="@drawable/selector_button1"/>
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/tv_key_zero"
+            style="@style/tv_key_one"
+            android:text="0"/>
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="#DADADA"/>
+
+        <Button
+            android:id="@+id/tv_key_back"
+            style="@style/tv_key_one"
+            android:text="完成"
+            android:background="@drawable/selector_button1"/>
+
+    </LinearLayout>
+    <View
+        android:background="#DADADA"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+
+</LinearLayout>

@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "D:\\DDW\\meituanturnpagelibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\267ce0c4dea0188d803e07521c6dd606879cfcc1\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\MyProject\\DDW\\meituanturnpagelibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\Bbacr\\.android\\build-cache\\13b9402e3740e2b0e489ae7c8846c7cc6b4aff6b\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "D:\\DDW\\meituanturnpagelibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\267ce0c4dea0188d803e07521c6dd606879cfcc1\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "D:\\DDW\\meituanturnpagelibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\267ce0c4dea0188d803e07521c6dd606879cfcc1\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "C:\\MyProject\\DDW\\meituanturnpagelibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\Bbacr\\.android\\build-cache\\13b9402e3740e2b0e489ae7c8846c7cc6b4aff6b\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "C:\\MyProject\\DDW\\meituanturnpagelibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\Bbacr\\.android\\build-cache\\13b9402e3740e2b0e489ae7c8846c7cc6b4aff6b\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\MyProject\\DDW\\meituanturnpagelibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\Bbacr\\.android\\build-cache\\13b9402e3740e2b0e489ae7c8846c7cc6b4aff6b\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\MyProject\\DDW\\meituanturnpagelibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\Bbacr\\.android\\build-cache\\13b9402e3740e2b0e489ae7c8846c7cc6b4aff6b\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\MyProject\\DDW\\meituanturnpagelibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\Bbacr\\.android\\build-cache\\13b9402e3740e2b0e489ae7c8846c7cc6b4aff6b\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "C:\\MyProject\\DDW\\meituanturnpagelibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\Bbacr\\.android\\build-cache\\13b9402e3740e2b0e489ae7c8846c7cc6b4aff6b\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\MyProject\\DDW\\meituanturnpagelibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\Bbacr\\.android\\build-cache\\13b9402e3740e2b0e489ae7c8846c7cc6b4aff6b\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "D:\\DDW\\meituanturnpagelibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\267ce0c4dea0188d803e07521c6dd606879cfcc1\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\DDW\\meituanturnpagelibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\267ce0c4dea0188d803e07521c6dd606879cfcc1\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\DDW\\meituanturnpagelibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\267ce0c4dea0188d803e07521c6dd606879cfcc1\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "C:\\MyProject\\DDW\\meituanturnpagelibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\Bbacr\\.android\\build-cache\\13b9402e3740e2b0e489ae7c8846c7cc6b4aff6b\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "D:\\DDW\\meituanturnpagelibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\267ce0c4dea0188d803e07521c6dd606879cfcc1\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\DDW\\meituanturnpagelibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\267ce0c4dea0188d803e07521c6dd606879cfcc1\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "D:\\DDW\\meituanturnpagelibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\267ce0c4dea0188d803e07521c6dd606879cfcc1\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\MyProject\\DDW\\meituanturnpagelibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\Bbacr\\.android\\build-cache\\13b9402e3740e2b0e489ae7c8846c7cc6b4aff6b\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\DDW\\meituanturnpagelibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\267ce0c4dea0188d803e07521c6dd606879cfcc1\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    }
+]
